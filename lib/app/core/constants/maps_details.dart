@@ -1,4 +1,4 @@
-abstract class maps {
+abstract class MapsDetails {
   static List<String> mapsNames = [
     "Acent",
     "Split",

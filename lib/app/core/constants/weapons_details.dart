@@ -1,4 +1,4 @@
-abstract class Weapons {
+abstract class WeaponsDetails {
   static List<String> weaponsNames = [
     "Melee",
     "Classic",
@@ -38,7 +38,7 @@ abstract class Weapons {
     "Sniper",
     "Sniper",
     "Sniper",
-    "Heavy",
-    "Heavy",
+    "Heavy Weapons",
+    "Heavy Weapons",
   ];
 }

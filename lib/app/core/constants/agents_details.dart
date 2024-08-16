@@ -1,0 +1,25 @@
+abstract class AgentsDetails {
+  static List<String> agentsNames = [
+    "Viper",
+    "Yoru",
+    "Sova",
+    "Skye",
+    "Sage ",
+    "Reyna",
+    "Raze",
+    "Phoenix",
+    "Omen",
+    "Neon",
+    "Killjoy",
+    "Kayo",
+    "Jett",
+    "fade",
+    "Cypher",
+    "Chamber",
+    "Brimstone",
+    "Breach",
+    "Astra",
+    "Gekko",
+    "Harbor",
+  ];
+}

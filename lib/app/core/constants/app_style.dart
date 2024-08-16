@@ -1,5 +1,4 @@
-import 'dart:ui';
-
+import 'package:flutter/material.dart';
 import 'package:valorent_guide/app/core/constants/app_colors.dart';
 
 class AppStyles {
@@ -24,9 +23,9 @@ class AppStyles {
     fontSize: 16,
   );
   static TextStyle bodyMid = TextStyle(
-    color: AppColors.mainTextColorDark,
-    fontFamily: "Valorant",
     fontSize: 20,
+    fontFamily: "valorant",
+    color: AppColors.mainTextColorDark,
   );
   static TextStyle bodyLarge = TextStyle(
     color: AppColors.mainTextColorDark,
