@@ -48,10 +48,10 @@ class Maps extends StatelessWidget {
   Widget _buildMiniMap(int index) {
     return Positioned(
       right: 10,
-      top: 40,
+      top: 20,
       child: Image.asset(
         "assets/artworks/home_elements/maps/mini_maps/${index + 1}.png",
-        height: 240,
+        height: 200,
       ),
     );
   }

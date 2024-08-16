@@ -4,7 +4,7 @@ abstract class AgentsDetails {
     "Yoru",
     "Sova",
     "Skye",
-    "Sage ",
+    "Sage",
     "Reyna",
     "Raze",
     "Phoenix",
