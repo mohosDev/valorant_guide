@@ -7,12 +7,12 @@ class AppStyles {
   static TextStyle titleMid = TextStyle(
     color: AppColors.mainTextColorDark,
     fontFamily: "Valorant",
-    fontSize: 24,
+    fontSize: 22,
   );
   static TextStyle titleLarge = TextStyle(
     color: AppColors.mainTextColorDark,
     fontFamily: "Valorant",
-    fontSize: 36,
+    fontSize: 25,
   );
 
   // Body Styles
@@ -20,16 +20,16 @@ class AppStyles {
   static TextStyle bodySmall = TextStyle(
     color: AppColors.mainTextColorDark,
     fontFamily: "Valorant",
-    fontSize: 16,
+    fontSize: 14,
   );
   static TextStyle bodyMid = TextStyle(
-    fontSize: 20,
+    fontSize: 14,
     fontFamily: "valorant",
     color: AppColors.mainTextColorDark,
   );
   static TextStyle bodyLarge = TextStyle(
     color: AppColors.mainTextColorDark,
     fontFamily: "Valorant",
-    fontSize: 24,
+    fontSize: 20,
   );
 }
