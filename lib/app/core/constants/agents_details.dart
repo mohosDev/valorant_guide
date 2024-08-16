@@ -22,4 +22,27 @@ abstract class AgentsDetails {
     "Gekko",
     "Harbor",
   ];
+  static Map<String, int> agentsNamesMap = {
+    "Viper": 2,
+    "Yoru": 1,
+    "Sova": 3,
+    "Skye": 3,
+    "Sage": 0,
+    "Reyna": 1,
+    "Raze": 1,
+    "Phoenix": 1,
+    "Omen": 2,
+    "Neon": 1,
+    "Killjoy": 0,
+    "Kayo": 3,
+    "Jett": 1,
+    "fade": 3,
+    "Cypher": 0,
+    "Chamber": 0,
+    "Brimstone": 2,
+    "Breach": 3,
+    "Astra": 2,
+    "Gekko": 2,
+    "Harbor": 3,
+  };
 }

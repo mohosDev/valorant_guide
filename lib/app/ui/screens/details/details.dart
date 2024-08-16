@@ -16,6 +16,7 @@ class Details extends StatelessWidget {
       builder: (context, model, child) => Scaffold(
         backgroundColor: AppColors.bgColorDark,
         appBar: AppBar(
+          iconTheme: IconThemeData(color: AppColors.mainTextColorDark),
           scrolledUnderElevation: 0,
           backgroundColor: AppColors.bgColorDark,
           title: Text(
@@ -26,10 +27,10 @@ class Details extends StatelessWidget {
           actions: [
             Container(
               padding: const EdgeInsets.only(right: 10),
-              child: const Image(
+              child: Image(
                 height: 40,
                 image: AssetImage(
-                  "assets/artworks/details_page_elements/categories/1.png",
+                  "assets/artworks/details_page_elements/categories/${AgentsDetails.agentsNamesMap[AgentsDetails.agentsNames[model.originIndex]]}.png",
                 ),
               ),
             )
@@ -87,6 +88,31 @@ class Details extends StatelessWidget {
                           "Abilities",
                           style: AppStyles.titleMid,
                         ),
+                      ),
+                      const Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          Image(
+                            image: AssetImage(
+                              "assets/artworks/details_page_elements/Abilities/1.png",
+                            ),
+                          ),
+                          Image(
+                            image: AssetImage(
+                              "assets/artworks/details_page_elements/Abilities/2.png",
+                            ),
+                          ),
+                          Image(
+                            image: AssetImage(
+                              "assets/artworks/details_page_elements/Abilities/3.png",
+                            ),
+                          ),
+                          Image(
+                            image: AssetImage(
+                              "assets/artworks/details_page_elements/Abilities/4.png",
+                            ),
+                          ),
+                        ],
                       )
                     ],
                   ),

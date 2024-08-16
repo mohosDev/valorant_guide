@@ -62,6 +62,8 @@ class _HomeState extends State<Home> {
     return TabBar(
       padding: const EdgeInsets.symmetric(horizontal: 5),
       labelStyle: AppStyles.bodyMid,
+      indicatorColor: Colors.transparent,
+      dividerColor: Colors.transparent,
       indicator: BoxDecoration(
         color: AppColors.tabColorDark,
         borderRadius: BorderRadius.circular(14),
