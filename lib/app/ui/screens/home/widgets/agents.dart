@@ -26,6 +26,7 @@ class Agents extends StatelessWidget {
                 splashColor: Colors.transparent,
                 onTap: () {
                   model.updteIndex(index);
+                  print(model.originIndex);
                   model.getDispcription();
                   Navigator.pushNamed(context, Details.routeName);
                 },

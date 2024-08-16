@@ -99,17 +99,17 @@ class Details extends StatelessWidget {
                           ),
                           Image(
                             image: AssetImage(
+                              "assets/artworks/details_page_elements/Abilities/4.png",
+                            ),
+                          ),
+                          Image(
+                            image: AssetImage(
                               "assets/artworks/details_page_elements/Abilities/2.png",
                             ),
                           ),
                           Image(
                             image: AssetImage(
                               "assets/artworks/details_page_elements/Abilities/3.png",
-                            ),
-                          ),
-                          Image(
-                            image: AssetImage(
-                              "assets/artworks/details_page_elements/Abilities/4.png",
                             ),
                           ),
                         ],
