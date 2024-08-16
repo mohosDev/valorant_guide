@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:valorent_guide/app/data/providers/agents_provider.dart';
 
 import '../../../../core/constants/agents_details.dart';
 import '../../../../core/constants/app_colors.dart';
 import '../../../../core/constants/app_style.dart';
+import '../../details/details.dart';
 
 class Agents extends StatelessWidget {
   const Agents({super.key});
@@ -18,11 +21,21 @@ class Agents extends StatelessWidget {
             width: 320,
             padding: const EdgeInsets.all(10),
             height: MediaQuery.of(context).size.height,
-            child: Stack(
-              children: [
-                _buildBackgroundCard(index),
-                _buildAgentImage(index),
-              ],
+            child: Consumer<AgentsProvider>(
+              builder: (context, model, child) => InkWell(
+                splashColor: Colors.transparent,
+                onTap: () {
+                  model.updteIndex(index);
+                  model.getDispcription();
+                  Navigator.pushNamed(context, Details.routeName);
+                },
+                child: Stack(
+                  children: [
+                    _buildBackgroundCard(index),
+                    _buildAgentImage(index),
+                  ],
+                ),
+              ),
             ),
           ),
         );
