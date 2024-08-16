@@ -2,7 +2,7 @@ import 'dart:ui';
 
 import 'package:valorent_guide/app/core/constants/app_colors.dart';
 
-abstract class AppStyle {
+class AppStyles {
   // Title Styles
 
   static TextStyle titleMid = TextStyle(
